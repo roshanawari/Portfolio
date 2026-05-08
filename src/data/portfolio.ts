@@ -17,7 +17,7 @@ export const personalInfo = {
     about:
         "I am an AI and Machine Learning enthusiast and an engineering student at Yeshwantrao Chavan College of Engineering (YCCE), Nagpur. I have a strong foundation in Data Structures and Algorithms, along with hands-on experience in machine learning and data analysis. I am passionate about building intelligent and scalable systems using Python and modern ML techniques. I enjoy writing clean, efficient code and applying analytical thinking to solve real-world problems in AI, data science, and software engineering.",
     email: "roshan16a@gmail.com",
-    github: "https://github.com/roshan16a-prog/",
+    github: "https://github.com/roshanawari/",
     linkedin: "https://www.linkedin.com/in/roshan-awari-79552a329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     leetcode: "https://leetcode.com/u/IP4KlDC3ag/",
     resume: "/resume.pdf",
@@ -83,6 +83,22 @@ export const skills = {
 
 export const projects = [
     {
+        id: "PowerForecaster",
+        title: "PowerForecaster - Power Plant Energy Prediction",
+        summary: "A deep learning-based energy forecasting system that predicts power plant electrical energy output using a PyTorch Artificial Neural Network (ANN) trained on operational and environmental parameters.",
+        description: "PowerForecaster is a machine learning and deep learning project developed to predict the electrical energy output (PE) of a power plant using an Artificial Neural Network (ANN). The project utilizes operational parameters such as Ambient Temperature (AT), Exhaust Vacuum (V), Atmospheric Pressure (AP), and Relative Humidity (RH) to estimate energy generation with high accuracy. Built using PyTorch, the system implements a complete end-to-end machine learning workflow including data preprocessing, feature scaling, model training, evaluation, visualization, and deployment-ready model export. The trained ANN achieved an impressive R² score of 93.44% on unseen test data, making it a reliable solution for predictive energy analytics and operational optimization.",
+        problemStatement: "Power plants often face difficulties in accurately forecasting electrical energy output due to constantly changing environmental and operational conditions. Traditional estimation techniques struggle to model nonlinear relationships between variables such as temperature, pressure, humidity, and vacuum levels, leading to inefficient energy planning and optimization.",
+        solution: "Developed a PyTorch-based Artificial Neural Network (ANN) capable of learning complex nonlinear relationships between operational parameters and electrical power output. The system performs preprocessing, feature scaling using StandardScaler, neural network training with backpropagation, and evaluation using multiple regression metrics. The trained model is exported as a reusable .pt file for future inference and deployment.",
+        features: ["Deep learning-based energy prediction using Artificial Neural Networks (ANN)", "Complete end-to-end machine learning pipeline using PyTorch", "Data preprocessing and validation for 9,568 clean dataset samples", "Feature scaling using StandardScaler for optimized model convergence", "Training and testing workflow with train-test splitting", "Performance evaluation using MAE, RMSE, MSE, R² Score, and MAPE", "Actual vs predicted value visualization and residual analysis", "Pre-trained model export using best_model.pt for production-ready inference", "Prediction support using custom operational parameter inputs", "Well-documented Jupyter Notebook implementation for reproducibility"],
+        tools: ["Python", "PyTorch", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Jupyter Notebook"],
+        duration: "April 2026",
+        images: ["/PowerForecaster-Power Plant Energy Prediction/cover.png"],
+        screenshots: ["/PowerForecaster-Power Plant Energy Prediction/1.png", "/PowerForecaster-Power Plant Energy Prediction/2.png", "/PowerForecaster-Power Plant Energy Prediction/3.png", "/PowerForecaster-Power Plant Energy Prediction/4.png", "/PowerForecaster-Power Plant Energy Prediction/5.png", "/PowerForecaster-Power Plant Energy Prediction/6.png"],
+        techStack: ["Python", "PyTorch", "Artificial Neural Network", "Deep Learning", "Machine Learning", "Regression Analysis", "Predictive Analytics", "Data Visualization"],
+        githubUrl: "https://github.com/roshanawari/PowerForecaster-Power-Plant-Energy-Prediction",
+        liveUrl: ""
+    },
+    {
         id: "SmartCartClustering",
         title: "SmartCart Clustering System",
         summary: "A robust machine learning pipeline designed to segment customers based on historical purchasing patterns and demographics using PCA and Agglomerative Clustering.",
@@ -95,7 +111,7 @@ export const projects = [
         images: ["/Smartcard-Clustering-System/cover.png"],
         screenshots: ["/Smartcard-Clustering-System/1.png", "/Smartcard-Clustering-System/2.png", "/Smartcard-Clustering-System/3.png", "/Smartcard-Clustering-System/4.png", "/Smartcard-Clustering-System/5.png", "/Smartcard-Clustering-System/6.png", "/Smartcard-Clustering-System/7.png", "/Smartcard-Clustering-System/8.png", "/Smartcard-Clustering-System/9.png", "/Smartcard-Clustering-System/10.png"],
         techStack: ["Python", "Machine Learning", "Unsupervised Learning", "Clustering", "PCA", "Scikit-learn"],
-        githubUrl: "https://github.com/roshan16a-prog/Smartcard-Clustering-System",
+        githubUrl: "https://github.com/roshanawari/Smartcard-Clustering-System",
         liveUrl: ""
     },
     {
@@ -111,7 +127,7 @@ export const projects = [
         images: ["/HealthRisk ML Classifier/cover.png"],
         screenshots: ["/HealthRisk ML Classifier/1.png", "/HealthRisk ML Classifier/2.png", "/HealthRisk ML Classifier/3.png", "/HealthRisk ML Classifier/4.png", "/HealthRisk ML Classifier/5.png", "/HealthRisk ML Classifier/6.png", "/HealthRisk ML Classifier/7.png", "/HealthRisk ML Classifier/8.png", "/HealthRisk ML Classifier/9.png", "/HealthRisk ML Classifier/10.png", "/HealthRisk ML Classifier/11.png"],
         techStack: ["Python", "Machine Learning", "Classification", "Scikit-learn", "Data Analysis", "Gradient Boosting"],
-        githubUrl: "https://github.com/roshan16a-prog/HealthRisk-ML-Classifier",
+        githubUrl: "https://github.com/roshanawari/HealthRisk-ML-Classifier",
         liveUrl: ""
     },
     {
@@ -127,7 +143,7 @@ export const projects = [
         images: ["/NextStepAI/p.jpg"],
         screenshots: ["/NextStepAI/ss1.png", "/NextStepAI/ss2.png", "/NextStepAI/ss3.png", "/NextStepAI/ss4.png", "/NextStepAI/ss5.png", "/NextStepAI/ss6.png", "/NextStepAI/ss7.png", "/NextStepAI/ss8.png", "/NextStepAI/ss9.png", "/NextStepAI/ss10.png", "/NextStepAI/ss11.png"],
         techStack: ["React", "Next.js", "FastAPI", "PostgreSQL", "Tailwind CSS", "AI/NLP", "Speech-to-Text"],
-        githubUrl: "https://github.com/roshan16a-prog/NextStepAI",
+        githubUrl: "https://github.com/roshanawari/NextStepAI",
         liveUrl: ""
     },
 
@@ -145,7 +161,7 @@ export const projects = [
         screenshots: ["/LoanSense/ss1.png", "/LoanSense/ss2.png", "/LoanSense/ss3.png"],
         techStack: ["Python", "Machine Learning", "Scikit-learn", "Pandas", "NumPy", "Streamlit"],
         modelsAndResults: ["Logistic Regression – Accuracy: 86.5%, F1-score: 0.77", "Naive Bayes (GaussianNB) – Accuracy: 86.5%, F1-score: 0.76", "KNN – Accuracy: 76%, F1-score: 0.57"],
-        githubUrl: "https://github.com/roshan16a-prog/LoanSense_loan_approval_predictor",
+        githubUrl: "https://github.com/roshanawari/LoanSense_loan_approval_predictor",
         liveUrl: ""
     },
     {
@@ -161,7 +177,7 @@ export const projects = [
         images: ["/StudentAnalysis/p.png"],
         screenshots: ["/StudentAnalysis/attendance_vs_exam_score.png", "/StudentAnalysis/daily_time_allocation.png", "/StudentAnalysis/exam_score_distribution_by_risk_group.png", "/StudentAnalysis/extracurricular_vs_mental_health_violin.png", "/StudentAnalysis/internet_quality_vs_exam_score.png", "/StudentAnalysis/mental_health_study_vs_exam_score.png", "/StudentAnalysis/mental_health_vs_exam_score.png", "/StudentAnalysis/screen_time_distribution.png", "/StudentAnalysis/study_hours_vs_exam_score.png"],
         techStack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-        githubUrl: "https://github.com/roshan16a-prog/Student_Habits_Performance_Analysis",
+        githubUrl: "https://github.com/roshanawari/Student_Habits_Performance_Analysis",
         liveUrl: ""
     },
     {
@@ -177,7 +193,7 @@ export const projects = [
         images: ["/ArogyaBot/p.png"],
         screenshots: ["/ArogyaBot/ss1.png", "/ArogyaBot/ss2.png", "/ArogyaBot/ss3.png"],
         techStack: ["React (TypeScript)", "Vite", "Tailwind CSS", "shadcn/ui", "Supabase Edge Functions", "Speech-to-Text Integration", "Multilingual AI Processing"],
-        githubUrl: "https://github.com/roshan16a-prog/ArogyaBot",
+        githubUrl: "https://github.com/roshanawari/ArogyaBot",
         liveUrl: "https://wellness-vaani-ai.lovable.app"
     },
     {
@@ -335,6 +351,16 @@ export const achievements = [
     },
 
     //participation
+    {
+        id: "ach-20",
+        title: "Participant - VIBE-A-THON 2026",
+        issuer: "YCCE Nagpur & Engineering India",
+        year: "2026",
+        date: "April 9, 2026",
+        image: "/Certificates/21.jpg",
+        description: "Awarded a Certificate of Participation for successfully participating in VIBE-A-THON 2026 held at Yeshwantrao Chavan College of Engineering (YCCE), Nagpur, organized by Engineering India YCCE in collaboration with ACM Student Chapter YCCE. The event recognized innovation, creativity, and proficiency in AI-powered development through collaborative problem-solving and technical engagement.",
+        category: "Participation"
+    },
     {
         id: "ach-18",
         title: "Participant - Internship Common Aptitude Test (LCAT)",

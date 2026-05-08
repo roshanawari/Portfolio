@@ -241,6 +241,7 @@ export default function AchievementsSection() {
                                                 fill
                                                 className="object-contain"
                                                 priority
+                                                unoptimized
                                             />
                                         </div>
                                     </motion.div>
